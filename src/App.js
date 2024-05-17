@@ -4,6 +4,7 @@ import Navbar from "./Components/Navbar";
 import AsideTwo from "../src/Components/AsideTwo";
 import Main from "./Main.js";
 import App2 from "./App2.js";
+import Footer from "./Components/Footer.js";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       {/* <AsideTwo /> */}
       <Main />
       <App2 />
+      <Footer />
     </div>
   );
 }

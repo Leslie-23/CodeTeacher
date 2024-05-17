@@ -1,10 +1,10 @@
 import React from "react";
+import Questionnaire3 from "./Questionnaire3";
 
 const javaScript = () => {
   return (
-    <div style={{ padding: "20px" }}>
-      <h1>JavaScript Page</h1>
-      <p>This is the JavaScript page.</p>
+    <div>
+      <Questionnaire3 />
     </div>
   );
 };

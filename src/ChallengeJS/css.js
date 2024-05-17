@@ -1,10 +1,10 @@
 import React from "react";
+import Questionnaire2 from "./Questionnaire2";
 
 const css = () => {
   return (
-    <div style={{ padding: "20px" }}>
-      <h1>CSS Page</h1>
-      <p>This is the CSS page.</p>
+    <div>
+      <Questionnaire2 />
     </div>
   );
 };

@@ -9,8 +9,7 @@ const Main = () => {
   return (
     <div>
       <header className="jersey-25-charted-regular">
-        Choose your <br />
-        Challenge{" "}
+        Choose your Challenge{" "}
       </header>
       <AsideTwo />
     </div>

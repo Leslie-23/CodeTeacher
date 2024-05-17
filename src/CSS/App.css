@@ -9,6 +9,7 @@
   font-weight: 400;
   font-size: 80px;
   font-style: normal;
+  padding: 0px;
 
   .jersey-25-charted-big {
     font-family: "Jersey 25 Charted", sans-serif;
@@ -142,9 +143,9 @@
   gap: 20px;
   justify-content: center;
   align-items: center;
-  /* height: 100vh; */
+
   background-color: #f0f0f0;
-  padding-top: 20px;
+  padding: 20px;
 }
 
 .tech-button {
@@ -193,6 +194,31 @@
 .js-button:hover {
   background-color: #e3c13b;
 }
+.react-button {
+  background-color: #007bff;
+}
+.react-button:hover {
+  background-color: #0056b3;
+}
+.node-button {
+  background-color: #00940c;
+}
+.node-button:hover {
+  background-color: #00551c;
+}
+.django-button {
+  background-color: darkgreen;
+}
+.django-button:hover {
+  background-color: rgb(0, 61, 0);
+}
+.mongo-button {
+  background-color: lightgreen;
+}
+.mongo-button:hover {
+  background-color: #00b380;
+}
+
 @media (max-width: 768px) {
   .button-container {
     flex-direction: column;
@@ -238,12 +264,35 @@ button {
   transition: background-color 0.3s;
 }
 
+.green-button {
+  color: white;
+  font-weight: bold;
+  background-color: rgb(4, 151, 4);
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+.green-button:hover {
+  background-color: rgb(10, 121, 10);
+}
 button:hover {
   background-color: #0056b3;
 }
 
 .result-section {
   text-align: center;
+}
+.result-section-404 {
+  text-align: center;
+  font-weight: bold;
+  padding: 30px;
+  font-size: large;
+}
+.jersey-25-charted-regular {
+  font-family: "Jersey 25 Charted", sans-serif;
+  font-weight: 100;
+  font-size: 30px;
+  font-style: normal;
+  padding: 0px;
 }
 @media (max-width: 768px) {
   .questionnaire {
@@ -253,5 +302,27 @@ button:hover {
   button {
     padding: 10px;
     font-size: 14px;
+  }
+}
+/* Footer.js */
+.footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  background-color: #000000;
+  color: white;
+  .jersey-25-charted-regular {
+    font-family: "Jersey 25 Charted", sans-serif;
+    font-weight: 200;
+    font-size: 40px;
+    font-style: normal;
+
+    .jersey-25-charted-big {
+      font-family: "Jersey 25 Charted", sans-serif;
+      font-weight: 200;
+      font-size: 100px;
+      font-style: normal;
+    }
   }
 }
