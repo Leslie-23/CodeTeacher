@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
+import { Link } from "react-router-dom";
 import "../CSS/App.css";
 import AsideOne from "./AsideOne";
 
@@ -18,20 +19,30 @@ const Navbar = () => {
         </div>
         <ul className={`navbar-links ${isOpen ? "open" : ""}`}>
           <li>
-            <a href="#home">Home</a>
+            <Link to="/home" onClick={toggleNavbar}>
+              Home
+            </Link>
           </li>
           <li>
-            <a href="#about">About</a>
+            <Link to="/about" onClick={toggleNavbar}>
+              About
+            </Link>
           </li>
           <li>
-            <a href="#courses">Courses</a>
+            <Link to="/courses" onClick={toggleNavbar}>
+              Courses
+            </Link>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <Link to="/contact" onClick={toggleNavbar}>
+              Contact
+            </Link>
           </li>
-          <li>
-            <a href="#subscribe">Subscribe</a>
-          </li>
+          {/* <li>
+            <Link to="/subscribe" onClick={toggleNavbar}>
+              Subscribe
+            </Link>
+          </li> */}
         </ul>
       </nav>
       {/* <AsideOne /> */}

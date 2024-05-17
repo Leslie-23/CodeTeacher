@@ -1,8 +1,11 @@
 import React from "react";
 import "../CSS/App.css";
+import Questionnaire7 from "./Questionnaire7";
 const MongoDb = () => {
   return (
-    <div className="result-section-404">MongoDB questions coming soon</div>
+    <div>
+      <Questionnaire7 />
+    </div>
   );
 };
 

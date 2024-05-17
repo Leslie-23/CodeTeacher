@@ -4,7 +4,7 @@ import React from "react";
 const Header = () => {
   return (
     <div>
-      <h1 className="jersey-25-charted-regular">
+      <h1 className="jersey-25-charted-regular01">
         So you Think <br /> you can <br />
         <span className="jersey-25-charted-big">CODE</span>
       </h1>

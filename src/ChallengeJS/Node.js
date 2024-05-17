@@ -1,8 +1,13 @@
 import React from "react";
 import "../CSS/App.css";
+import Questionnaire4 from "./Questionnaire4";
 
 const Node = () => {
-  return <div className="result-section-404">NodeJs questions coming soon</div>;
+  return (
+    <div>
+      <Questionnaire4 />
+    </div>
+  );
 };
 
 export default Node;

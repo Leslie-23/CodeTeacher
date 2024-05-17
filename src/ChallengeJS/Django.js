@@ -1,8 +1,13 @@
 import React from "react";
 import "../CSS/App.css";
+import Questionnaire5 from "./Questionnaire5";
 
 const Django = () => {
-  return <div className="result-section-404">Django questions coming soon</div>;
+  return (
+    <div>
+      <Questionnaire5 />
+    </div>
+  );
 };
 
 export default Django;

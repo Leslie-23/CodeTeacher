@@ -4,7 +4,7 @@
   font-weight: 900;
   font-style: normal;
 }
-.jersey-25-charted-regular {
+.jersey-25-charted-regular01 {
   font-family: "Jersey 25 Charted", sans-serif;
   font-weight: 400;
   font-size: 80px;
@@ -292,7 +292,7 @@ button:hover {
   font-weight: 100;
   font-size: 30px;
   font-style: normal;
-  padding: 0px;
+  /* padding: 0px; */
 }
 @media (max-width: 768px) {
   .questionnaire {

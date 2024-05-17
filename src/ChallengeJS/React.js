@@ -1,10 +1,11 @@
 import React from "react";
 import "../CSS/App.css";
+import Questionnaire6 from "./Questionnaire6";
 
 const myReact = () => {
   return (
-    <div className="result-section-404 jersey-25-charted-regular">
-      React questions coming soon
+    <div>
+      <Questionnaire6 />
     </div>
   );
 };
