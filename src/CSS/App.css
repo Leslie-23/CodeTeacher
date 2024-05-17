@@ -1,0 +1,259 @@
+/* App.js */
+.italianno-regular {
+  font-family: "Italianno", cursive;
+  font-weight: 900;
+  font-style: normal;
+}
+.jersey-25-charted-regular {
+  font-family: "Jersey 25 Charted", sans-serif;
+  font-weight: 400;
+  font-size: 80px;
+  font-style: normal;
+
+  .jersey-25-charted-big {
+    font-family: "Jersey 25 Charted", sans-serif;
+    font-weight: 400;
+    font-size: 200px;
+    font-style: normal;
+  }
+}
+.challenge {
+  font-family: "Jersey 25 Charted", sans-serif;
+  font-weight: 400;
+  font-size: 200px;
+  font-style: normal;
+}
+@media (max-width: 768px) {
+  .jersey-25-charted-regular {
+    font-family: "Jersey 25 Charted", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    font-style: normal;
+
+    .jersey-25-charted-big {
+      font-family: "Jersey 25 Charted", sans-serif;
+      font-weight: 320;
+      font-size: 100px;
+      font-style: normal;
+    }
+  }
+
+  .challenge {
+    font-family: "Jersey 25 Charted", sans-serif;
+    font-weight: 400;
+    font-size: 100px;
+    font-style: normal;
+  }
+}
+
+/* NavBar.js */
+
+/* Navbar.css */
+
+.navbar {
+  background-color: #000000;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  color: white;
+  position: relative;
+  font-weight: bold;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  text-decoration: none;
+}
+
+.navbar-logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.navbar-toggle {
+  display: none;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navbar-links li {
+  display: inline;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  transition: background-color 0.3s;
+}
+
+.navbar-links a:hover {
+  background-color: #575757;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .navbar-toggle {
+    display: block;
+  }
+
+  .navbar-links {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #000000;
+    transition: max-height 0.3s;
+    overflow: hidden;
+    max-height: 0;
+  }
+
+  .navbar-links.open {
+    max-height: 300px; /* Adjust as needed */
+  }
+
+  .navbar-links li {
+    text-align: center;
+    padding: 10px 0;
+    width: 10%;
+  }
+}
+
+/* AsideTwo.js */
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  background-color: #f0f0f0;
+  padding-top: 20px;
+}
+
+.tech-button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.tech-button .button-icon {
+  font-size: 1.5em;
+}
+
+.tech-button:hover {
+  transform: scale(1.1);
+}
+
+.html-button {
+  background-color: #e34c26;
+}
+
+.html-button:hover {
+  background-color: #d74322;
+}
+
+.css-button {
+  background-color: #1572b6;
+}
+
+.css-button:hover {
+  background-color: #1464a0;
+}
+
+.js-button {
+  background-color: #f0db4f;
+  color: black;
+}
+
+.js-button:hover {
+  background-color: #e3c13b;
+}
+@media (max-width: 768px) {
+  .button-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .tech-button {
+    width: 70%;
+    justify-content: center;
+  }
+}
+
+/* Questionnaire.js */
+.questionnaire {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  background-color: #f0f0f0;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.question-section {
+  text-align: center;
+}
+
+.options-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.result-section {
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .questionnaire {
+    padding: 10px;
+  }
+
+  button {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
