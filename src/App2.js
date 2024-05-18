@@ -11,6 +11,7 @@ import Home from "./Components/Home";
 import About from "./Components/About";
 import Contact from "./Components/Contact";
 import Courses from "./Components/Courses";
+import APIroute from "./Components/APIroute";
 
 // import AsideTwo from "./Components/AsideTwo";
 
@@ -30,6 +31,7 @@ function App2() {
         <Route path="/about" Component={About} />
         <Route path="/contact" Component={Contact} />
         <Route path="/courses" Component={Courses} />
+        <Route path="/APIroute" Component={APIroute} />
       </Routes>
       {/* <AsideTwo /> */}
       {/* reusable /\ component useless here but being called in the Main.js */}

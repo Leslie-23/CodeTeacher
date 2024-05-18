@@ -39,6 +39,11 @@ const Navbar = () => {
             </Link>
           </li>
           {/* <li>
+            <Link to="/APIroute" onClick={toggleNavbar}>
+              APIroute
+            </Link>
+          </li> */}
+          {/* <li>
             <Link to="/subscribe" onClick={toggleNavbar}>
               Subscribe
             </Link>

@@ -10,6 +10,9 @@
   font-size: 80px;
   font-style: normal;
   padding: 0px;
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-around; */
 
   .jersey-25-charted-big {
     font-family: "Jersey 25 Charted", sans-serif;
@@ -325,4 +328,32 @@ button:hover {
       font-style: normal;
     }
   }
+}
+.containerStyle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-family: "Arial, sans-serif";
+}
+
+.quoteStyle {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+.authorStyle {
+  font-size: 1.2em;
+  font-style: normal;
+}
+
+.row-rap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
